@@ -5,7 +5,7 @@ const body = document.body;
 function temaEscuro(tipo) {
     if (tipo == true) {
         body.classList.add ('escuro');
-        botao.innerHTML = '<i class="fa-solid fa-sun></i>"';
+        botao.innerHTML = '<i class="fa-solid fa-sun"></i>';
     } else {
         body.classList.remove('escuro');
         botao.innerHTML = '<i class="fa-solid fa-moon"></i>';
